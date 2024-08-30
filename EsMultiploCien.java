@@ -18,6 +18,7 @@ public class EsMultiploCien {
 	int mod1=numbers%100;
 	
 	//if the result is 0 it will be a multiple of 100, otherwise it will not.
+	//The ternary operator is used to perform double validation and to be able to identify whether the result ends in 0 or not
 	String res1 =(mod1==0)? "Si" : "No";
 
 
